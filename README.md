@@ -16,6 +16,7 @@ Then open http://localhost:3000.
 - `components/` – reusable React components
 - `pages/` – Next.js pages
 - `styles/` – global Tailwind layer
+- Path alias `@` defined in jsconfig.json
 
 
 ## Environment variables
