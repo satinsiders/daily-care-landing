@@ -37,7 +37,7 @@ const plans = [
       'Flexible scheduling',
       'Purchasable by the hour',
     ],
-    cta: { label: 'Book a Session', href: 'https://forms.gle/h78DBjJcRDVpdB1a7' },
+    cta: { label: 'Book a Session', href: 'https://www.superfastsat.com/en' },
   },
 ];
 
