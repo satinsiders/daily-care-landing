@@ -22,7 +22,7 @@ const plans = [
       'Daily high-frequency vocab training',
       'Cancel any time',
     ],
-    cta: { label: 'Start Free Trial', href: '/checkout?plan=daily-care' },
+    cta: { label: 'Start Free Trial', href: 'https://forms.gle/h78DBjJcRDVpdB1a7' },
   },
   {
     id: 'tutoring',
@@ -37,7 +37,7 @@ const plans = [
       'Flexible scheduling',
       'Purchasable by the hour',
     ],
-    cta: { label: 'Book a Session', href: '/checkout?plan=tutoring' },
+    cta: { label: 'Book a Session', href: 'https://forms.gle/h78DBjJcRDVpdB1a7' },
   },
 ];
 
