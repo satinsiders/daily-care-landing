@@ -9,7 +9,7 @@ export default function Footer() {
           now.
         </p>
         <a
-          href="https://forms.gle/your_google_form" // replace
+          href="https://forms.gle/h78DBjJcRDVpdB1a7"
           className="inline-block rounded-lg bg-accent px-8 py-4 text-white font-semibold shadow hover:opacity-90"
         >
           Get Started

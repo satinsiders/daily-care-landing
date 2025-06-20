@@ -7,7 +7,7 @@ export default function Navbar() {
           satinsiders
         </Link>
         <Link
-          href="#cta"
+          href="https://forms.gle/h78DBjJcRDVpdB1a7"
           className="rounded-lg bg-accent px-4 py-2 text-white text-sm font-semibold shadow hover:opacity-90"
         >
           Get Started
