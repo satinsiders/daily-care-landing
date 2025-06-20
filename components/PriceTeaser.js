@@ -13,7 +13,7 @@ export default function PriceTeaser() {
           </span>
         </p>
         <Link
-          href="https://forms.gle/h78DBjJcRDVpdB1a7"
+          href="#pricing"
           className="inline-block rounded-lg bg-white/10 px-8 py-4 font-semibold hover:bg-white/20"
         >
           See plan details
