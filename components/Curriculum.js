@@ -66,7 +66,7 @@ export default function Curriculum() {
           —so content keeps recalibrating until your test date.
         </p>
 
-        <div className="grid gap-8 lg:grid-cols-3 md: grid-cols-2 sm:grid-cols-2">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {phases.map(({ label, title, bullets }) => (
             <div
               key={label}
