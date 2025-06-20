@@ -18,7 +18,7 @@ export default function Navbar() {
         </Link>
       </div>
       <nav
-        className={`${open ? "block" : "hidden"} md:hidden bg-white shadow-md border-t border-gray-200"}
+        className={`${open ? "block" : "hidden"} md:hidden bg-white shadow-md border-t border-gray-200`}
       >
         <div className="px-4 py-2">
           <Link
