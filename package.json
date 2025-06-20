@@ -1,0 +1,26 @@
+{
+  "name": "superfastsat-landing",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.19",
+    "@heroicons/react": "^2.0.18",
+    "autoprefixer": "^10.4.17",
+    "chart.js": "^4.4.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.18.1",
+    "next": "^14.2.30",
+    "postcss": "^8.4.31",
+    "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-fast-marquee": "^1.6.5",
+    "tailwindcss": "^3.4.4"
+  }
+}
