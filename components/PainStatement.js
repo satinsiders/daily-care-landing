@@ -9,7 +9,7 @@ export default function PainStatement() {
         </p>
 
         {/* bumped to Tailwind’s loosest preset */}
-        <p className="text-4xl md:text-5xl font-bold leading-[2.25] tracking-wider">
+        <p className="text-4xl md:text-5xl font-bold leading-[2.25] tracking-wide">
           Generic drills don’t show you why you miss questions—or how to fix them.
         </p>
       </div>
