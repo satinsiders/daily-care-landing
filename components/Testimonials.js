@@ -34,7 +34,7 @@ const testimonials = [
     name: "Ayesha S.",
     role: "First-gen college-bound",
     quote:
-      "I feared the math section. The step-by-step video feedback after each practice test made the concepts stick.",
+      "I feared the math section. The step-by-step feedback after each practice test made the concepts stick.",
     avatar: "/avatars/ayesha.png",
   },
   {
