@@ -96,7 +96,7 @@ export default function Trial() {
           </section>
 
           {/* Step 2 */}
-          <section className="text-center">
+          <section className="text-center space-y-4">
             <h2 className="text-xl font-semibold">Step 2: Sign Up for the Platform</h2>
             <p className="text-gray-600 mb-8">
               Once you’ve claimed your trial, sign up for our platform to finish
