@@ -28,8 +28,7 @@ export default function Home() {
         <BuiltAround />
         <HowItWorks />
         <Features />
-        <Pricing />
-        <LeadForm /> 
+        <Pricing /> 
         <Curriculum />
         <ComparisonTable />
         <Testimonials />
