@@ -4,7 +4,20 @@ import clsx from "clsx";
 
 /** Simple regex helpers */
 const emailRx  = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const phoneRx  = /^\+?\d{7,15}$/;        // int’l tolerant
+const phoneRx  = /^\+?\d{7,15}$/;          // int’l-tolerant
+
+/* 🔗 Google Form setup */
+const FORM_ID  = "1FAIpQLSeYUl4tU51l1yEg8kykiWM7b3aBcRyzQfqrBGAIFevRggDVsg";
+const URL      = `https://docs.google.com/forms/d/e/${FORM_ID}/formResponse`;
+
+/* Field entry IDs (from your pre-filled link) */
+const ENTRY = {
+  name:    "entry.980192885",
+  grade:   "entry.679912395",
+  contact: "entry.1666969452",
+  agree1:  "entry.2061379481",
+  agree2:  "entry.929695260",
+};
 
 export default function LeadForm() {
   const [form, setForm] = useState({ name: "", grade: "", contact: "" });
@@ -23,11 +36,21 @@ export default function LeadForm() {
     if (!emailRx.test(form.contact) && !phoneRx.test(form.contact))
       return setStatus({ error: "Enter valid phone or email" });
 
+    /* Build payload for Google Form */
+    const data = new URLSearchParams({
+      [ENTRY.name]:    form.name.trim(),
+      [ENTRY.grade]:   form.grade.trim(),
+      [ENTRY.contact]: form.contact.trim(),
+      [ENTRY.agree1]:  "Agree",   // static consent values
+      [ENTRY.agree2]:  "I agree", // (remove if not needed)
+    });
+
     try {
-      await fetch("/api/lead", {       // see API route below
+      await fetch(URL, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        mode:   "no-cors",                         // bypass CORS
+        headers:{ "Content-Type": "application/x-www-form-urlencoded" },
+        body:   data.toString(),
       });
       setStatus({ sent: true });
       setForm({ name: "", grade: "", contact: "" });
@@ -84,7 +107,7 @@ export default function LeadForm() {
             </label>
 
             <label className="grid gap-2">
-              <span className="font-medium">Email *or* Phone(WhatsApp)</span>
+              <span className="font-medium">Email *or* Phone (WhatsApp)</span>
               <input
                 type="text"
                 name="contact"
