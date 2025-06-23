@@ -26,7 +26,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-wrap items-center gap-4">
             <Link
-              href="/free-trial"
+              href="#lead"
               className="rounded-lg bg-accent px-6 py-3 text-white font-semibold shadow hover:opacity-90"
             >
               Start free trial
