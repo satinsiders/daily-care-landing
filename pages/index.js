@@ -33,11 +33,11 @@ export default function Home() {
         <BuiltAround />
         <HowItWorks />
         <Features />
-        <Pricing /> 
+        <Pricing />
+        <LeadForm />
         <Curriculum />
         <ComparisonTable />
         <Testimonials />
-        <LeadForm />
         <FAQ />
       </main>
       <Footer />
