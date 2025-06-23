@@ -22,7 +22,7 @@ const plans = [
       'Daily high-frequency vocab training',
       'Cancel any time',
     ],
-    cta: { label: 'Start Free Trial', href: 'https://forms.gle/h78DBjJcRDVpdB1a7' },
+    cta: { label: 'Start Free Trial', href: '#lead' },
   },
   {
     id: 'tutoring',
