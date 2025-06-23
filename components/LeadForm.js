@@ -113,7 +113,7 @@ export default function LeadForm() {
                 value={form.contact}
                 onChange={handleChange}
                 className="input"
-                placeholder="e.g. +1 555-123-4567 or jordan@email.com"
+                placeholder="e.g. +14241234567 or jordan@email.com"
                 required
               />
             </label>
