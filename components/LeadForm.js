@@ -63,10 +63,10 @@ export default function LeadForm() {
     <section id="lead" className="bg-light py-16 md:py-24">
       <div className="container mx-auto px-4 max-w-xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Not ready to start? Talk with an advisor.
+          Ready for Personalized Prep?
         </h2>
         <p className="text-center text-gray-600 mb-10">
-          Tell us a bit about you and we’ll reach out within 24 hours — no obligation.
+          Tell us a bit about you and we’ll reach out within 24 hours with a diagnostic plan — no obligation.
         </p>
 
         {status.sent ? (
