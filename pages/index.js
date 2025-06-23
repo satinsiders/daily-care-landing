@@ -13,15 +13,11 @@ import ComparisonTable from "../components/ComparisonTable";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
-import Head from "next/head";
+import LeadForm from "../components/LeadForm";
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Daily Care | 1:1 manager with personalized curriculum</title>
-        <link rel="icon" href="/daily-care-icon.ico" />
-      </Head>
       <Navbar />
       <main>
         <Hero />
@@ -33,6 +29,7 @@ export default function Home() {
         <HowItWorks />
         <Features />
         <Pricing />
+        <LeadForm /> 
         <Curriculum />
         <ComparisonTable />
         <Testimonials />
