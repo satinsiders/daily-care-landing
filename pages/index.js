@@ -14,10 +14,15 @@ import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import LeadForm from "../components/LeadForm";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Daily Care | 1:1 manager with personalized curriculum</title>
+        <link rel="icon" href="/daily-care-icon.ico" />
+      </Head>
       <Navbar />
       <main>
         <Hero />
