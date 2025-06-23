@@ -120,13 +120,13 @@ export default function Trial() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="https://wa.me/11234567890"
+                href="https://wa.me/821027012761"
                 className="rounded-lg bg-accent px-6 py-3 text-white font-semibold shadow hover:opacity-90"
               >
                 Contact via WhatsApp
               </a>
               <a
-                href="mailto:hello@superfastsat.com"
+                href="mailto:satinsiders@gmail.com"
                 className="rounded-lg border border-accent px-6 py-3 font-semibold text-accent hover:bg-accent/10"
               >
                 Email Us
