@@ -34,10 +34,10 @@ export default function Home() {
         <HowItWorks />
         <Features />
         <Pricing /> 
-        <LeadForm />
         <Curriculum />
         <ComparisonTable />
         <Testimonials />
+        <LeadForm />
         <FAQ />
       </main>
       <Footer />
