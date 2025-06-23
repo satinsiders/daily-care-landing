@@ -11,7 +11,7 @@ export default function Navbar() {
           satinsiders
         </Link>
         <Link
-          href="/free-trial"
+          href="#lead"
           className="hidden md:inline-block rounded-lg bg-accent px-4 py-2 text-white text-sm font-semibold shadow hover:opacity-90"
         >
           Get Started
@@ -29,7 +29,7 @@ export default function Navbar() {
             Blog
           </Link>
           <Link
-            href="/free-trial"
+            href="#lead"
             className="mt-2 block w-full rounded-lg bg-accent px-4 py-2 text-center text-sm font-semibold text-white shadow hover:opacity-90"
             onClick={() => setOpen(false)}
           >
