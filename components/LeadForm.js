@@ -106,7 +106,7 @@ export default function LeadForm() {
             </label>
 
             <label className="grid gap-2">
-              <span className="font-medium">Email *or* Phone (WhatsApp)</span>
+              <span className="font-medium">Phone (WhatsApp). Email only if necessary</span>
               <input
                 type="text"
                 name="contact"
