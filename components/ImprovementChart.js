@@ -13,8 +13,9 @@ const Line = dynamic(() => import("react-chartjs-2").then((m) => m.Line), {
 });
 
 const weeklyData = {
-  math:    [1010, 1040, 1090, 1120, 1160, 1190, 1220, 1250],
-  reading: [ 960,  985, 1025, 1055, 1090, 1120, 1145, 1180],
+  // Scores now range from 450 to around 800 with varied jumps
+  math: [450, 480, 520, 540, 610, 630, 710, 770],
+  reading: [470, 495, 515, 550, 620, 640, 710, 760],
 };
 const labels = ["Week 0", "1", "2", "3", "4", "5", "6", "7"];
 
