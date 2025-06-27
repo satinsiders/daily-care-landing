@@ -15,8 +15,6 @@ const ENTRY = {
   name:    "entry.980192885",
   grade:   "entry.679912395",
   contact: "entry.1666969452",
-  agree1:  "entry.2061379481",
-  agree2:  "entry.929695260",
 };
 
 export default function LeadForm() {
@@ -41,8 +39,6 @@ export default function LeadForm() {
       [ENTRY.name]:    form.name.trim(),
       [ENTRY.grade]:   form.grade.trim(),
       [ENTRY.contact]: form.contact.trim(),
-      [ENTRY.agree1]:  "Agree",   // static consent values
-      [ENTRY.agree2]:  "I agree", // (remove if not needed)
     });
 
     try {
