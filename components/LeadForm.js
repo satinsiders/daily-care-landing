@@ -1,10 +1,7 @@
 // components/LeadForm.js
 import { useState } from "react";
 import clsx from "clsx";
-
-/** Simple regex helpers */
-const emailRx  = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const phoneRx  = /^\+?\d{7,15}$/;          // int’l-tolerant
+import { isValidEmail, isValidPhone } from "../utils/validators";
 
 /* 🔗 Google Form setup */
 const FORM_ID  = "1FAIpQLSeYUl4tU51l1yEg8kykiWM7b3aBcRyzQfqrBGAIFevRggDVsg";
@@ -31,7 +28,7 @@ export default function LeadForm() {
     if (!form.name.trim())       return setStatus({ error: "Name required" });
     if (!["7","8","9","10","11","12"].includes(form.grade))
       return setStatus({ error: "Enter grade 7-12" });
-    if (!emailRx.test(form.contact) && !phoneRx.test(form.contact))
+    if (!isValidEmail(form.contact) && !isValidPhone(form.contact))
       return setStatus({ error: "Enter valid phone or email" });
 
     /* Build payload for Google Form */
