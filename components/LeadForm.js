@@ -1,7 +1,7 @@
 // components/LeadForm.js
 import { useState } from "react";
 import clsx from "clsx";
-import { isValidEmail, isValidPhone } from "../utils/validators";
+import { isValidPhone } from "../utils/validators";
 
 /* 🔗 Google Form setup */
 const FORM_ID  = "1FAIpQLSeYUl4tU51l1yEg8kykiWM7b3aBcRyzQfqrBGAIFevRggDVsg";
@@ -28,8 +28,8 @@ export default function LeadForm() {
     if (!form.name.trim())       return setStatus({ error: "Name required" });
     if (!["7","8","9","10","11","12"].includes(form.grade))
       return setStatus({ error: "Enter grade 7-12" });
-    if (!isValidEmail(form.contact) && !isValidPhone(form.contact))
-      return setStatus({ error: "Enter valid phone or email" });
+    if (!isValidPhone(form.contact))
+      return setStatus({ error: "Enter a valid phone number" });
 
     /* Build payload for Google Form */
     const data = new URLSearchParams({
@@ -99,14 +99,14 @@ export default function LeadForm() {
             </label>
 
             <label className="grid gap-2">
-              <span className="font-medium">Phone (WhatsApp). Email only if necessary</span>
+              <span className="font-medium">Phone (WhatsApp)</span>
               <input
                 type="text"
                 name="contact"
                 value={form.contact}
                 onChange={handleChange}
                 className="input"
-                placeholder="e.g. +14241234567 or jordan@email.com"
+                placeholder="e.g. +14241234567"
                 required
               />
             </label>
