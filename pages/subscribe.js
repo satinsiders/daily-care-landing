@@ -84,7 +84,7 @@ export default function Subscribe() {
           <section className="text-center space-y-4">
             <h2 className="text-xl font-semibold">Step 1: Subscribe to Daily Care</h2>
             <p className="text-gray-600">
-              Subscribe to start your SAT prep journey. You'll be charged immediately.
+              Subscribe to start your SAT prep journey.
               Click below to begin.
             </p>
 
@@ -114,8 +114,8 @@ export default function Subscribe() {
           <section className="text-center space-y-6">
             <h2 className="text-xl font-semibold">That’s it!</h2>
             <p className="text-gray-600">
-              Your academic manager will reach out within a few hours via WhatsApp
-              or email. Feel free to ping us first—we’re here to support you
+              Your academic manager will reach out within a few hours via WhatsApp.
+              Feel free to ping us first—we’re here to support you
               throughout your SAT journey.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
