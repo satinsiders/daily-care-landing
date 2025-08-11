@@ -29,7 +29,7 @@ export default function Hero() {
               href="#lead"
               className="rounded-lg bg-accent px-6 py-3 text-white font-semibold shadow hover:opacity-90"
             >
-              Start free trial
+              Get Started
             </Link>
             <Link
               href="#about"

@@ -10,7 +10,7 @@ import Image  from "next/image";
  * • Render the button after the SDK loads.
  * • Tear it down on unmount so React Fast-Refresh is clean.
  */
-export default function Trial() {
+export default function Subscribe() {
   const paypalLoaded = useRef(false);
 
   useEffect(() => {
@@ -64,7 +64,7 @@ export default function Trial() {
   return (
     <>
       <Head>
-        <title>Start Your Free Trial | SuperfastSAT</title>
+        <title>Subscribe to Daily Care | SuperfastSAT</title>
       </Head>
 
       <main className="min-h-screen py-12 px-4">
@@ -72,7 +72,7 @@ export default function Trial() {
         <div className="mx-auto max-w-3xl space-y-14">
           {/* Hero */}
           <Image
-            src="/images/trial-hero.png"
+            src="/images/subscribe-hero.png"
             alt="Students studying"
             width={1200}
             height={400}
@@ -82,10 +82,10 @@ export default function Trial() {
 
           {/* Step 1 */}
           <section className="text-center space-y-4">
-            <h2 className="text-xl font-semibold">Step 1: Claim Your Free Trial</h2>
+            <h2 className="text-xl font-semibold">Step 1: Subscribe to Daily Care</h2>
             <p className="text-gray-600">
-              Start your SAT prep journey with a free 5-day trial. After the trial
-              period, charges will apply. Click below to get started.
+              Subscribe to start your SAT prep journey.
+              Click below to begin.
             </p>
 
             {/* Added mt-6 for extra breathing room below the text */}
@@ -99,8 +99,8 @@ export default function Trial() {
           <section className="text-center space-y-4">
             <h2 className="text-xl font-semibold">Step 2: Sign Up for the Platform</h2>
             <p className="text-gray-600 mb-8">
-              Once you’ve claimed your trial, sign up for our platform to finish
-              the setup—this takes less than 2 minutes.
+              Once you’ve subscribed, sign up for our platform to finish the
+              setup—this takes less than 2 minutes.
             </p>
             <Link
               href="https://www.superfastsat.com/signup"
@@ -114,8 +114,8 @@ export default function Trial() {
           <section className="text-center space-y-6">
             <h2 className="text-xl font-semibold">That’s it!</h2>
             <p className="text-gray-600">
-              Your academic manager will reach out within a few hours via WhatsApp
-              or email. Feel free to ping us first—we’re here to support you
+              Your academic manager will reach out within a few hours via WhatsApp.
+              Feel free to ping us first—we’re here to support you
               throughout your SAT journey.
             </p>
             <div className="flex flex-wrap justify-center gap-4">

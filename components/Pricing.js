@@ -9,7 +9,7 @@ import Section from './Section';
 const plans = [
   {
     id: 'daily-care',
-    title: 'Daily Care (5-day free trial)',
+    title: 'Daily Care Plan',
     price: '$69',
     unit: 'per month',
     popular: true,
@@ -22,7 +22,7 @@ const plans = [
       'Daily high-frequency vocab training',
       'Cancel any time',
     ],
-    cta: { label: 'Start Free Trial', href: '#lead' },
+    cta: { label: 'Subscribe Now', href: '#lead' },
   },
   {
     id: 'tutoring',
