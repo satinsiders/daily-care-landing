@@ -21,13 +21,16 @@ const labels = ["Week 0", "1", "2", "3", "4", "5", "6", "7"];
 
 export default function ImprovementChart() {
   const [subject, setSubject] = useState("math");
+  const scores = weeklyData[subject];
+  const yMin = Math.min(...scores);
+  const yMax = Math.max(...scores);
 
   const chartData = {
     labels,
     datasets: [
       {
         label: subject === "math" ? "Math" : "Reading & Writing",
-        data: weeklyData[subject],
+        data: scores,
         borderWidth: 3,
         tension: 0.3,
         borderColor: "#00B894",
@@ -46,8 +49,8 @@ export default function ImprovementChart() {
       tooltip: { backgroundColor: "#333" },
     },
     scales: {
-      y: { beginAtZero: false, grid: { color: "#eee" } },
-      x: { grid: { display: false } },
+      y: { min: yMin, max: yMax, grid: { color: "#eee" } },
+      x: { min: 0, max: labels.length - 1, grid: { display: false } },
     },
   };
 
