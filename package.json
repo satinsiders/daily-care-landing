@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start -p $PORT",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest",
+    "qa-pipeline": "node utils/qaPipeline.js"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.19",
@@ -16,6 +17,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^12.18.1",
     "next": "^14.2.30",
+    "openai": "^4.104.0",
     "react": "18.2.0",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
