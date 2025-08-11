@@ -7,7 +7,7 @@ export default function BuiltAround() {
   const gallery = [
     { src: "/images/gallery-chat.png",       alt: "WhatsApp daily check-in" },
     { src: "/images/gallery-diagnostic.png", alt: "Diagnostic" },
-    { src: "/images/gallery-manager.png",    alt: "Manager photo" },
+    { src: "/images/gallery-chat-2.png",    alt: "WhatsApp daily check-in" },
   ];
 
   const [selectedImg, setSelectedImg] = useState(null);
