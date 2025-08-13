@@ -30,7 +30,7 @@ export default function TermsOfService() {
           </p>
           <p>
             These Terms constitute a legally binding agreement between you and
-            SuperfastSAT LLC ("Company," "we," or "us"). Please read them
+            Argonaut Education Inc. ("Company," "we," or "us"). Please read them
             carefully before using the Service.
           </p>
         </section>
@@ -349,11 +349,11 @@ export default function TermsOfService() {
           <p>
             SuperfastSAT LLC
             <br />
-            1234 Learning Avenue
+            1616 Federal Ave APT D
             <br />
-            Wilmington, DE 19801
+            Los Angeles, CA 90025
             <br />
-            Email: support@superfastsat.com
+            Email: jason@satinsiders.com
           </p>
         </section>
       </main>
