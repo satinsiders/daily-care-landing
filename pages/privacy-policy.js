@@ -15,7 +15,7 @@ export default function PrivacyPolicy() {
         <section className="space-y-4">
           <h2 className="text-xl font-semibold">1. Introduction</h2>
           <p>
-            This Privacy Policy explains how SuperfastSAT LLC ("Company," "we," or
+            This Privacy Policy explains how Argonaut Education Inc. ("Company," "we," or
             "us") collects, uses, shares, and protects the personal information of
             users who access or use the Daily Care service (the "Service"). By
             using the Service, you consent to the practices described in this
@@ -241,13 +241,13 @@ export default function PrivacyPolicy() {
             data practices, please contact us at:
           </p>
           <p>
-            SuperfastSAT LLC
+            Argonaut Education Inc.
             <br />
-            1234 Learning Avenue
+            1616 Federal Ave APT D
             <br />
-            Wilmington, DE 19801
+            Los Angeles, CA 90025
             <br />
-            Email: privacy@superfastsat.com
+            Email: jason@satinsiders.com
           </p>
         </section>
       </main>
