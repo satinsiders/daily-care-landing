@@ -21,7 +21,7 @@ export default function Footer() {
           <li>
             <Link href="/privacy-policy">Privacy Policy</Link>
           </li>
-          <li>©2025 SuperfastSAT. All rights reserved.</li>
+          <li>©2025 Argonaut Education. All rights reserved.</li>
         </ul>
       </div>
     </footer>
