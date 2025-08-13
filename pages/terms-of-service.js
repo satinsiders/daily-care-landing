@@ -347,7 +347,7 @@ export default function TermsOfService() {
             If you have any questions about these Terms, please contact us at:
           </p>
           <p>
-            SuperfastSAT LLC
+            Argonaut Education Inc.
             <br />
             1616 Federal Ave APT D
             <br />
