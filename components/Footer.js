@@ -16,10 +16,10 @@ export default function Footer() {
         </a>
         <ul className="flex flex-wrap justify-center gap-6 text-xs text-gray-500 pt-12">
           <li>
-            <Link href="#">Terms of Service</Link>
+            <Link href="/terms-of-service">Terms of Service</Link>
           </li>
           <li>
-            <Link href="#">Privacy Policy</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
           </li>
           <li>©2025 SuperfastSAT. All rights reserved.</li>
         </ul>
