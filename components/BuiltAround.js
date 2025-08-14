@@ -18,7 +18,7 @@ export default function BuiltAround() {
         Built Around You, Backed by a Mentor.
       </h2>
 
-      <div className="text-left max-w-3xl mx-auto text-gray-600 text-[18.5px] leading-[1.75] space-y-6">
+      <div className="text-left max-w-3xl mx-auto text-gray-600 text-base leading-relaxed space-y-4 md:text-[18.5px] md:leading-[1.75] md:space-y-6">
         <p>
           Daily Care was born out of a simple idea: every student deserves daily,
           personalized support at a price families can afford. Not just a weekly
