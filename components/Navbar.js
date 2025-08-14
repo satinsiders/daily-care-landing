@@ -13,7 +13,7 @@ export default function Navbar() {
             alt="Daily Care logo"
             className="h-8 w-8"
           />
-          Daily Care
+          DailyCare
         </Link>
         <Link
           href="/#lead"
