@@ -28,14 +28,14 @@ export default function Home() {
         <Hero />
         <PainStatement />
         <Stats />
+        <PriceTeaser />
         <Testimonials />
         <Trusted />
-        <PriceTeaser />
         <BuiltAround />
-        <HowItWorks />
-        <Features />
         <Pricing />
         <LeadForm />
+        <HowItWorks />
+        <Features />
         <Curriculum />
         <ComparisonTable />
         <FAQ />
