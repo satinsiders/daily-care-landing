@@ -27,8 +27,9 @@ export default function Home() {
       <main>
         <Hero />
         <PainStatement />
-        <Trusted />
         <Stats />
+        <Testimonials />
+        <Trusted />
         <PriceTeaser />
         <BuiltAround />
         <HowItWorks />
@@ -37,7 +38,6 @@ export default function Home() {
         <LeadForm />
         <Curriculum />
         <ComparisonTable />
-        <Testimonials />
         <FAQ />
       </main>
       <Footer />
