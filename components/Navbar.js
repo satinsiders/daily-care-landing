@@ -7,8 +7,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container mx-auto flex items-center justify-between px-4 py-3 max-w-6xl">
-        <Link href="/" className="text-lg font-bold">
-          satinsiders
+        <Link href="/" className="flex items-center gap-2 text-lg font-bold">
+          <img
+            src="/daily-care-icon.ico"
+            alt="Daily Care logo"
+            className="h-8 w-8"
+          />
+          Daily Care
         </Link>
         <Link
           href="/#lead"

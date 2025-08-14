@@ -247,7 +247,7 @@ export default function PrivacyPolicy() {
             <br />
             Los Angeles, CA 90025
             <br />
-            Email: jason@satinsiders.com
+            Email: jason@dailycare.com
           </p>
         </section>
       </main>

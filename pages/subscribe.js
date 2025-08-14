@@ -126,7 +126,7 @@ export default function Subscribe() {
                 Contact via WhatsApp
               </a>
               <a
-                href="mailto:satinsiders@gmail.com"
+                href="mailto:dailycare@gmail.com"
                 className="rounded-lg border border-accent px-6 py-3 font-semibold text-accent hover:bg-accent/10"
               >
                 Email Us
