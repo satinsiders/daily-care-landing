@@ -4,8 +4,8 @@ import Section from "./Section";
 
 export default function Hero() {
   return (
-    <Section id="hero" className="pt-10 pb-20">
-      <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+    <Section id="hero" className="pt-6 pb-12 md:pt-10 md:pb-20">
+      <div className="flex flex-col md:flex-row items-center gap-6 md:gap-16">
         <div className="relative w-full md:w-5/12 aspect-[4/3]">
           {/* using regular img to avoid build-time errors if images not present yet */}
           <img
@@ -14,7 +14,7 @@ export default function Hero() {
             className="w-full h-auto object-contain"
           />
         </div>
-        <div className="w-full md:w-7/12 space-y-6">
+        <div className="w-full md:w-7/12 space-y-4 md:space-y-6">
           <h1 className="text-4xl md:text-5xl font-extrabold leading-tight text-dark">
             Ace the SAT with <br className="hidden md:block" />
             <span className="text-accent">Personalized Prep</span>
