@@ -38,6 +38,13 @@ export default function Hero() {
               About
             </Link>
           </div>
+          <div className="flex flex-wrap gap-3 text-sm font-medium text-gray-700">
+            <span className="rounded-full bg-light px-4 py-1">+160 pts avg in 4 wks</span>
+            <span className="rounded-full bg-light px-4 py-1">65% hit 1400+</span>
+          </div>
+          <p className="text-sm text-gray-500 italic">
+            “Daily Care turned studying into bite-size missions.” — Sarah K.
+          </p>
         </div>
       </div>
     </Section>

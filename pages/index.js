@@ -27,17 +27,17 @@ export default function Home() {
       <main>
         <Hero />
         <PainStatement />
-        <Trusted />
         <Stats />
         <PriceTeaser />
+        <Testimonials />
+        <Trusted />
         <BuiltAround />
-        <HowItWorks />
-        <Features />
         <Pricing />
         <LeadForm />
+        <HowItWorks />
+        <Features />
         <Curriculum />
         <ComparisonTable />
-        <Testimonials />
         <FAQ />
       </main>
       <Footer />
